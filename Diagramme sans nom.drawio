@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T08:26:32.164Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="N8KZm_YflY4WSIpr6ncR" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T08:42:15.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tx30CG04ygNWgpXdozZ8" version="24.0.7" type="github">
   <diagram name="Page-1" id="ko1czbBw52IeaF3ko27d">
-    <mxGraphModel dx="1272" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2362" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,8 +53,11 @@
         <mxCell id="ykU63rrfPqvXQfsTkInG-20" value="&lt;div&gt;AGENCE LOCALE&lt;/div&gt;&lt;div&gt;INFO&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ykU63rrfPqvXQfsTkInG-9">
           <mxGeometry x="275" y="334" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-42" value="ajouter a la liste" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ykU63rrfPqvXQfsTkInG-9">
+          <mxGeometry x="-20" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="ykU63rrfPqvXQfsTkInG-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="5" width="350" height="560" as="geometry" />
+          <mxGeometry x="480" y="5" width="350" height="595" as="geometry" />
         </mxCell>
         <mxCell id="ykU63rrfPqvXQfsTkInG-11" value="TIC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="ykU63rrfPqvXQfsTkInG-10">
           <mxGeometry width="150" height="370" as="geometry" />
@@ -116,17 +119,14 @@
             <mxPoint x="90" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ykU63rrfPqvXQfsTkInG-10" source="ykU63rrfPqvXQfsTkInG-24" target="ykU63rrfPqvXQfsTkInG-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ykU63rrfPqvXQfsTkInG-24" value="ajouter a la liste" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ykU63rrfPqvXQfsTkInG-10">
           <mxGeometry x="50" y="405" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ykU63rrfPqvXQfsTkInG-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-25" target="ykU63rrfPqvXQfsTkInG-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ykU63rrfPqvXQfsTkInG-25" value="&lt;div&gt;CREER LA ISTE&lt;/div&gt;&lt;div&gt;selon critere si il connait diispo de ses chques tic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="580" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ykU63rrfPqvXQfsTkInG-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-24" target="ykU63rrfPqvXQfsTkInG-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ykU63rrfPqvXQfsTkInG-43" value="&lt;div&gt;amount of TIC&lt;/div&gt;&lt;div&gt;OUI / NON&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ykU63rrfPqvXQfsTkInG-10">
+          <mxGeometry x="50" y="515" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ykU63rrfPqvXQfsTkInG-27" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="880" y="5" width="350" height="560" as="geometry" />
@@ -200,8 +200,23 @@
         <mxCell id="ykU63rrfPqvXQfsTkInG-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-37" target="ykU63rrfPqvXQfsTkInG-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ykU63rrfPqvXQfsTkInG-40" value="&lt;div&gt;CREER LA ISTE&lt;/div&gt;&lt;div&gt;selon critere si il ne connais sa dispo chques, on le renvoie a l&#39;agence&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="580" width="120" height="60" as="geometry" />
+        <mxCell id="ykU63rrfPqvXQfsTkInG-40" value="&lt;div&gt;NON,&lt;/div&gt;&lt;div&gt;retour agence&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-25" value="&lt;div&gt;OUI,&lt;/div&gt;&lt;div&gt;confirmation de réunion d&#39;info&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-43" target="ykU63rrfPqvXQfsTkInG-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-43" target="ykU63rrfPqvXQfsTkInG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-47" value="&lt;div&gt;CREATE &lt;br&gt;&lt;/div&gt;&lt;div&gt;LIST&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykU63rrfPqvXQfsTkInG-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ykU63rrfPqvXQfsTkInG-24" target="ykU63rrfPqvXQfsTkInG-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
